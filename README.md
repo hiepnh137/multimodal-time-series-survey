@@ -1,6 +1,6 @@
 # Multimodal Time-Series Survey
 
-<!-- ![Papers](https://img.shields.io/badge/papers-71-blue) -->
+<!-- ![Papers](https://img.shields.io/badge/papers-72-blue) -->
 ![Last Updated](https://img.shields.io/badge/last%20updated-June%202026-green)
 <!-- ![License](https://img.shields.io/badge/license-MIT-brightgreen) -->
 
@@ -125,6 +125,7 @@ Papers in this group explore whether reformulating a TS as a different represent
 | [InstructTime++: Time Series Classification with Multimodal Language Modeling via Implicit Feature Enhancement](https://arxiv.org/abs/2601.14968) | arXiv | 2026 | Enhances TS classification with multimodal LM and implicit feature enhancement via natural language instructions | - |
 | [MMTS-BENCH: A Comprehensive Benchmark for Time Series Understanding and Reasoning](https://arxiv.org/abs/2602.08588) | arXiv | 2026 | 2424 TSQA pairs across Base/InWild/Match/Align subsets; covers structural awareness;feature analysis;temporal reasoning;cross-modal alignment | - |
 | [MetaboNet-Bench: A Multi-modal Benchmark for Glucose Forecasting in Type 1 Diabetes](https://arxiv.org/abs/2606.18640) | arXiv | 2026 | Multi-modal benchmark combining CGM glucose TS with diet/insulin/activity records for T1D glucose forecasting | - |
+| [Nexus: An Agentic Framework for Time Series Forecasting](https://arxiv.org/abs/2605.14389) | arXiv | 2026 | Multi-agent framework decomposing forecasting into macro/micro temporal outlook agents + synthesizer; integrates news/event context for grounded TS forecasting | - |
 | [Rethinking Multimodal Fusion for Time Series: Text Modalities Need Constrained Fusion](https://arxiv.org/abs/2603.22372) | arXiv | 2026 | Shows unconstrained text fusion harms TS forecasting; proposes Constrained Fusion Architecture (CFA) | [Code](https://github.com/seunghan96/cfa) |
 | [TimeART: Towards Agentic Time Series Reasoning via Tool-Augmentation](https://arxiv.org/abs/2601.13653) | arXiv | 2026 | LLM agent with 21 TS analysis tools; 100k expert trajectory TimeToolBench dataset | - |
 | [Towards Multimodal Time Series Anomaly Detection with Semantic Alignment and Condensed Interaction](https://arxiv.org/abs/2603.21612) | arXiv | 2026 | MindTS: fine-grained time-text semantic alignment + content condensing for anomaly detection on 6 multimodal datasets | - |
@@ -208,6 +209,7 @@ Papers in this group explore whether reformulating a TS as a different represent
 | [What if Tomorrow is the World Cup Final? Counterfactual Time Series Forecasting with Textual Conditions](https://arxiv.org/abs/2605.14422) | ICML 2026 | 2026 | Counterfactual TS forecasting with textual event conditions to answer what-if questions about future trajectories | - |
 | [Does Text Actually Help? Uncovering and Resolving Text Collapse in Multimodal Time Series Forecasting](https://arxiv.org/abs/2606.19413) | arXiv | 2026 | Identifies and resolves text collapse phenomenon where text modality degrades multimodal TS forecasting performance | - |
 | [MetaboNet-Bench: A Multi-modal Benchmark for Glucose Forecasting in Type 1 Diabetes](https://arxiv.org/abs/2606.18640) | arXiv | 2026 | Multi-modal benchmark combining CGM glucose TS with diet/insulin/activity records for T1D glucose forecasting | - |
+| [Nexus: An Agentic Framework for Time Series Forecasting](https://arxiv.org/abs/2605.14389) | arXiv | 2026 | Multi-agent framework decomposing forecasting into macro/micro temporal outlook agents + synthesizer; integrates news/event context for grounded TS forecasting | - |
 | [Rethinking Multimodal Fusion for Time Series: Text Modalities Need Constrained Fusion](https://arxiv.org/abs/2603.22372) | arXiv | 2026 | Shows unconstrained text fusion harms TS forecasting; proposes Constrained Fusion Architecture (CFA) | [Code](https://github.com/seunghan96/cfa) |
 | [Spectral Retrieval-Augmented Time-Series Forecasting](https://arxiv.org/abs/2606.19412) | arXiv | 2026 | Retrieves spectrally similar historical TS patterns to augment forecasting via spectral similarity-based retrieval | - |
 | [TimeVista: Exploring and Exploiting Vision-Language Models as Judges for Time Series Forecasting](https://arxiv.org/abs/2606.16173) | arXiv | 2026 | Uses VLMs as visual judges over TS line plots to evaluate forecast quality and guide model selection | - |
@@ -418,6 +420,7 @@ Papers in this group explore whether reformulating a TS as a different represent
 | [TSRBench: A Comprehensive Multi-task Multi-modal Time Series Reasoning Benchmark for Generalist Models](https://arxiv.org/abs/2601.18744) | ICML 2026 | 2026 | Comprehensive benchmark evaluating generalist models on multi-task multimodal TS reasoning across diverse domains | - |
 | [What if Tomorrow is the World Cup Final? Counterfactual Time Series Forecasting with Textual Conditions](https://arxiv.org/abs/2605.14422) | ICML 2026 | 2026 | Counterfactual TS forecasting with textual event conditions to answer what-if questions about future trajectories | - |
 | [MMTS-BENCH: A Comprehensive Benchmark for Time Series Understanding and Reasoning](https://arxiv.org/abs/2602.08588) | arXiv | 2026 | 2424 TSQA pairs across Base/InWild/Match/Align subsets; covers structural awareness;feature analysis;temporal reasoning;cross-modal alignment | - |
+| [Nexus: An Agentic Framework for Time Series Forecasting](https://arxiv.org/abs/2605.14389) | arXiv | 2026 | Multi-agent framework decomposing forecasting into macro/micro temporal outlook agents + synthesizer; integrates news/event context for grounded TS forecasting | - |
 | [Can LLMs Understand Time Series Anomalies?](https://arxiv.org/abs/2410.05440) | ICLR 2025 | 2025 | Systematic evaluation of LLM capabilities for TS anomaly detection via zero-shot and few-shot prompting with textual context | - |
 | [Chat-TS: Enhancing Multi-Modal Reasoning Over Time-Series and Natural Language Data](https://arxiv.org/abs/2503.10883) | arXiv | 2025 | Integrates TS tokens into LLM vocabulary; TS Instruct Training and QA Gold datasets for multimodal reasoning | - |
 | [GPT4MTS: Prompt-based Large Language Model for Multimodal Time-series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/30383) | AAAI 2024 | 2024 | TS + GDELT news for impact forecasting; BERT embeddings as soft prompts fused with patched TS | [Code](https://github.com/Flora-jia-jfr/GPT4MTS-Prompt-based-Large-Language-Model-for-Multimodal-Time-series-Forecasting) |
@@ -473,6 +476,7 @@ Papers in this group explore whether reformulating a TS as a different represent
 |---|---|---:|---|---|
 | [Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases](https://arxiv.org/abs/2602.17001) | ICML 2026 | 2026 | Search-then-verify framework for NL queries over TS databases; decomposes natural language questions into analytical sub-queries | - |
 | [Can LLM Coding Agents Reason About Time Series?](https://arxiv.org/abs/2606.16545) | arXiv | 2026 | Evaluates LLM coding agent capabilities for TS reasoning via tool use and code generation across diverse TS tasks | - |
+| [Nexus: An Agentic Framework for Time Series Forecasting](https://arxiv.org/abs/2605.14389) | arXiv | 2026 | Multi-agent framework decomposing forecasting into macro/micro temporal outlook agents + synthesizer; integrates news/event context for grounded TS forecasting | - |
 | [TimeART: Towards Agentic Time Series Reasoning via Tool-Augmentation](https://arxiv.org/abs/2601.13653) | arXiv | 2026 | LLM agent with 21 TS analysis tools; 100k expert trajectory TimeToolBench dataset | - |
 | [SocioDojo: Building Lifelong Analytical Agents with Real-world Text and Time Series](https://openreview.net/forum?id=s9z0HzWJJp) | ICLR 2024 | 2024 | Lifelong agent combining real-world text + 30K financial TS; Analyst-Assistant-Actuator architecture with Hypothesis & Proof prompting | - |
 
