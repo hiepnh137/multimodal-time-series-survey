@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.pyz
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-link
+.installed.cfg
+MANIFEST
+.Python
+env/
+venv/
+ENV/
+.venv/
+.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Cache files
+.cache/
+*.cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+agents/
+data/
+papers/
+CONTRIBUTING.md
+LICENSE
+pipeline.md
+time_series_2024_2026.xlsx
+DailyArXiv/
