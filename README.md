@@ -32,7 +32,6 @@ A curated collection of papers, datasets, benchmarks, and code for multimodal ti
   - [Contrastive Learning](#contrastive-learning)
   - [Multitask Learning](#multitask-learning)
   - [Retrieval-Augmented Learning](#retrieval-augmented-learning)
-  - [Prompting / In-Context Learning](#prompting--in-context-learning)
   - [Foundation Model Adaptation](#foundation-model-adaptation)
   - [Agentic](#agentic)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
@@ -95,7 +94,6 @@ Papers in this group explore whether reformulating a TS as a different represent
 | **Contrastive Learning** | Maximize agreement between positive cross-modal pairs and repel negative pairs to learn aligned multimodal representations. |
 | **Multitask Learning** | Train a single model on multiple objectives simultaneously (e.g., forecasting + captioning) to share representations and improve generalization. |
 | **Retrieval-Augmented Learning** | At inference, retrieve relevant historical TS examples and incorporate them as additional context for improved generalization. |
-| **Prompting / In-Context Learning** | Condition a frozen LLM on structured prompts containing TS context to enable few-shot or zero-shot TS understanding. |
 | **Foundation Model Adaptation** | Adapt large pretrained models (LLMs, ViTs, MAEs) to TS by fine-tuning, reprogramming, or zero-shot transfer. |
 | **Agentic** | Equip an LLM with a set of TS analysis tools and train it to compose multi-step analytical pipelines autonomously. |
 
@@ -410,23 +408,6 @@ Papers in this group explore whether reformulating a TS as a different represent
 | [TRACE: Grounding Time Series in Context for Multimodal Embedding and Retrieval](https://arxiv.org/abs/2506.09114) | NeurIPS 2025 | 2025 | Learns multimodal embeddings that ground TS in textual context for semantic retrieval-augmented forecasting | - |
 | [TS-RAG: Retrieval-Augmented Generation based Time Series Foundation Models are Stronger Zero-Shot Forecaster](https://arxiv.org/abs/2503.07649) | arXiv | 2025 | Pre-trained TS encoder retrieves semantically relevant patterns; Adaptive Retrieval Mixer for dynamic pattern fusion | - |
 | [Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting](https://arxiv.org/abs/2502.04395) | arXiv | 2025 | VLM with retrieval-enriched temporal features + vision encoding of TS as images + text context generation | - |
-
-### Prompting / In-Context Learning
-
-| Paper | Venue | Year | Note | Code |
-|---|---|---:|---|---|
-| [HEARTS: Benchmarking LLM Reasoning on Health Time Series](https://arxiv.org/abs/2603.06638) | ICML 2026 | 2026 | Comprehensive benchmark evaluating LLM reasoning over health TS across multiple clinical tasks and domains | - |
-| [Sonar-TS: Search-Then-Verify Natural Language Querying for Time Series Databases](https://arxiv.org/abs/2602.17001) | ICML 2026 | 2026 | Search-then-verify framework for NL queries over TS databases; decomposes natural language questions into analytical sub-queries | - |
-| [TSRBench: A Comprehensive Multi-task Multi-modal Time Series Reasoning Benchmark for Generalist Models](https://arxiv.org/abs/2601.18744) | ICML 2026 | 2026 | Comprehensive benchmark evaluating generalist models on multi-task multimodal TS reasoning across diverse domains | - |
-| [What if Tomorrow is the World Cup Final? Counterfactual Time Series Forecasting with Textual Conditions](https://arxiv.org/abs/2605.14422) | ICML 2026 | 2026 | Counterfactual TS forecasting with textual event conditions to answer what-if questions about future trajectories | - |
-| [MMTS-BENCH: A Comprehensive Benchmark for Time Series Understanding and Reasoning](https://arxiv.org/abs/2602.08588) | arXiv | 2026 | 2424 TSQA pairs across Base/InWild/Match/Align subsets; covers structural awareness;feature analysis;temporal reasoning;cross-modal alignment | - |
-| [Nexus: An Agentic Framework for Time Series Forecasting](https://arxiv.org/abs/2605.14389) | arXiv | 2026 | Multi-agent framework decomposing forecasting into macro/micro temporal outlook agents + synthesizer; integrates news/event context for grounded TS forecasting | - |
-| [Can LLMs Understand Time Series Anomalies?](https://arxiv.org/abs/2410.05440) | ICLR 2025 | 2025 | Systematic evaluation of LLM capabilities for TS anomaly detection via zero-shot and few-shot prompting with textual context | - |
-| [Chat-TS: Enhancing Multi-Modal Reasoning Over Time-Series and Natural Language Data](https://arxiv.org/abs/2503.10883) | arXiv | 2025 | Integrates TS tokens into LLM vocabulary; TS Instruct Training and QA Gold datasets for multimodal reasoning | - |
-| [GPT4MTS: Prompt-based Large Language Model for Multimodal Time-series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/30383) | AAAI 2024 | 2024 | TS + GDELT news for impact forecasting; BERT embeddings as soft prompts fused with patched TS | [Code](https://github.com/Flora-jia-jfr/GPT4MTS-Prompt-based-Large-Language-Model-for-Multimodal-Time-series-Forecasting) |
-| [SocioDojo: Building Lifelong Analytical Agents with Real-world Text and Time Series](https://openreview.net/forum?id=s9z0HzWJJp) | ICLR 2024 | 2024 | Lifelong agent combining real-world text + 30K financial TS; Analyst-Assistant-Actuator architecture with Hypothesis & Proof prompting | - |
-| [S2IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting](https://arxiv.org/abs/2403.05798) | ICML 2024 | 2024 | Maps TS patch prototypes to LLM word-token semantic space via k-means; uses aligned prototypes as soft prompts for forecasting | [Code](https://github.com/panzijie825/S2IP-LLM) |
-| [From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection](https://arxiv.org/abs/2409.17515) | NeurIPS 2024 | 2024 | LLM reflection loop that iteratively integrates news event analysis to improve TS forecasting | [Code](https://github.com/ameliawong1996/From_News_to_Forecast) |
 
 ### Foundation Model Adaptation
 
